@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.heading{
+  color : red;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 5vh;
+  text-align: center;
+  text-shadow: 2px 2px 2px 2px #000;
+}
+
+.img_div{
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_div img{
+  padding: 5vh;
+  width : 20vw;
+  height: 60vh;
+  border-radius: 20%;
+}
+
+.img_div img:hover{
+    transform: scale(1.2);
 }

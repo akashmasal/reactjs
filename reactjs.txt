@@ -1,0 +1,28 @@
+react-jsx -> 
+it is nothing but a javascript extension file also know as javascript xml embeded file.
+
+
+react-fragment
+-><React.fragment> </React.Fragment> OR <></>
+
+
+react-expressions
+->Use inside the curly brackets
+
+react-template literals
+->use ``
+
+react-current date using jsx function
+
+react-jsx 
+->html Attribute vs jsx Attribute
+
+--> global Attributes
+--> self closing tags
+
+
+react-css
+->external css --> importing css from other files
+->using online google fonts
+-->internal and inline css
+
