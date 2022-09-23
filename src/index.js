@@ -142,3 +142,22 @@
 // );
 
 
+import React from "react";
+
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <>
+  <h1>Hello ReactJS</h1>
+  <p>This is test message </p>
+  <ol>
+    <li>NodeJs</li>
+    <li>ReactJs</li>
+    <li>MongoDB</li>
+    <li>ExpressJS</li>
+  </ol>
+  </>,
+  document.getElementById("root")
+)
+
+
