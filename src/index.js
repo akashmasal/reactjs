@@ -141,23 +141,61 @@
 //   document.getElementById("root") 
 // );
 
+//-----------------------------------------//
+// import React from "react";
+
+// import ReactDOM from "react-dom";
+
+// import "./index.css";
+
+// ReactDOM.render(
+//   <>
+//   <h1>Hello ReactJS</h1>
+//   <p>This is test message </p>
+//   <ol>
+//     <li>NodeJs</li>
+//     <li>ReactJs</li>
+//     <li>MongoDB</li>
+//     <li>ExpressJS</li>
+//   </ol>
+//   </>,
+//   document.getElementById("root")
+// )
+
+
+//----------------------------------------------------------//
+
+
+// import React from "react";
+// import ReactDOM  from "react-dom";
+// import Heading from './Heading';
+// import Para from "./Para";
+// import Ol from "./Ol";
+// // let name = "Akash";
+// ReactDOM.render(
+//   <>
+//   {/* <h1>My Name is {name}</h1> */}
+//   <Heading/>
+//   <Para/>
+//   <Ol/>
+//   </>,
+//   document.getElementById("root")
+// );
+
+
+//-----------------------------------------------------------------//
+
 
 import React from "react";
 
-import ReactDOM from "react-dom";
+import  ReactDOM  from "react-dom";
+
+import App from "./App";
+
 
 ReactDOM.render(
   <>
-  <h1>Hello ReactJS</h1>
-  <p>This is test message </p>
-  <ol>
-    <li>NodeJs</li>
-    <li>ReactJs</li>
-    <li>MongoDB</li>
-    <li>ExpressJS</li>
-  </ol>
+    <App/>
   </>,
   document.getElementById("root")
 )
-
-

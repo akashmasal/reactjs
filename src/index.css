@@ -15,7 +15,7 @@ code {
     monospace;
 }
 
-.heading{
+/* .heading{
   color : red;
   font-family: 'Bungee Spice', cursive;
   font-size: 5vh;
@@ -38,4 +38,23 @@ code {
 
 .img_div img:hover{
     transform: scale(1.2);
+} */
+
+h1{
+  font-size: 2em;
+  color : red;
+  text-transform: capitalize;
+  text-shadow: 0.2rem 0.2rem 0.2rem #000;
+  font-weight: bold;
+}
+
+p{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ol li{
+  list-style-type: square;
+  font-weight: bold;
+  line-height: 5vh;
 }
